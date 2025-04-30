@@ -1,0 +1,33 @@
+# Ignore environment variables and secrets
+.env
+
+# Ignore Docker volumes if any local paths are added
+/srv/n8n-data/
+/srv/backups/
+/srv/pgdata/
+
+# Ignore typical system files
+.DS_Store
+Thumbs.db
+
+# Ignore editor files
+*.swp
+*.swo
+*~
+
+# Node.js artifacts (sometimes accidentally created)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+
+# Caddy cert storage (if bind-mounted)
+.caddy/
+
+# VS Code settings (if you use VS Code)
+.vscode/
+
+
