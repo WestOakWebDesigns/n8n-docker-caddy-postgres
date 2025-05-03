@@ -1,5 +1,5 @@
 # Ignore environment variables and secrets
-
+.env
 
 # Ignore Docker volumes if any local paths are added
 /srv/n8n-data/
